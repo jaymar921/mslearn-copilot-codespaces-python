@@ -39,6 +39,34 @@ Finally, verify the new endpoint is working by trying it out by going to the `/d
 
 🚀 Congratulations, through the exercise, you haven't only used copilot to generate code but also done it in an interactive and fun way! You can use GitHub Copilot to not only generate code, but write documentation, test your applications and more.
 
+## How to Run
+
+You can run this FastAPI project either in GitHub Codespaces or locally.
+
+### In GitHub Codespaces
+
+1. Open this repository in GitHub Codespaces.
+2. The devcontainer will automatically install dependencies and start the server.
+3. Once the server is running, open the forwarded port (usually 8000) to access the app.
+4. Visit `/docs` for the interactive API documentation.
+
+### Running Locally
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-org/your-repo.git
+   cd your-repo
+   ```
+2. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Start the FastAPI server:
+   ```sh
+   uvicorn webapp.main:app --reload
+   ```
+4. Open your browser to [http://localhost:8000](http://localhost:8000) to view the app.
+5. Visit [http://localhost:8000/docs](http://localhost:8000/docs) for API docs.
 
 ## Legal Notices
 
